@@ -6,55 +6,65 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-           <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+           <script src="https://kit.fontawesome.com/1815825ca6.js" crossorigin="anonymous"></script>
             <link rel="stylesheet" href= "index.css">
     </head>
 
+<!--enter the body-->
+
 <body>
 
+                        <!--CARD HEADER-->
 <div class="container">
-
-
-<form>
-  <div class="form-row">
-
-    <div class="form-group col-5">
-      <label for="inputEmail4">Card #</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="xxxxxxxxxxxxx">
+    <div class="card text-center">
+        <div class="card-header">
+        <h3>Payment form example</h3>
     </div>
+            <div class="alert alert-danger" role="alert">
+                Some fields are missing
+            </div>
+<div class="card-body">
+    <form>
+        <div class="form-row">
 
-    <div class="form-group col">
-      <label for="inputPassword4">CVC</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="0000">
-    </div>
+                        <!--1ST SECTION-->
+<div class="form-group col-5">
+        <label for="inputEmail4">Card #</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="xxxxxxxxxxxxx">
+</div>
+<div class="form-group col">
+        <label for="inputPassword4">CVC</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="0000">
+</div>
+<div class="form-group col">
+        <label for="inputPassword4">Amount</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Amount">
+</div>
+        </div>
 
-    <div class="form-group col">
-      <label for="inputPassword4">Amount</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Amount">
-    </div>
-  </div>
- <div class="form-row">
 
+                        <!--2ND SECTION-->
+
+
+<div class="form-row">
     <div class="form-group col-6">
         <label for="inputfirstname">First Name</label>
         <input type="email" class="form-control" id="inputfirstname">
     </div>
-
     <div class="form-group col-6">
         <label for="inputlastname">Last Name</label>
         <input type="email" class="form-control" id="inputlastname">
     </div>
+</div>
 
 
-
-  </div>
-
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col">
+                                    <!--3RD SECTION-->
+<div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+<div class="form-group col">
       <label for="inputState">State</label>
       <select id="inputState" class="form-control">
         <option selected>Pick a state</option>
@@ -62,47 +72,60 @@
         <option>Los Angeles</option>
         <option>New york</option>
       </select>
-    </div>
+</div>
     <div class="form-group col">
       <label for="inputZip">Postal</label>
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
-<div class="form-row">
+
+
+<!--radio section-->
 
 <div class="form-row">
+    <div class="col">
+        <div class="radio">
 
-
-<div class="radio">
-
-        <div>
             <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1"><i class="fab fa-cc-mastercard"></i></label>
-    </div>
-    <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2"><i class="fab fa-cc-visa"></i></label>
-    <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1"><i class="fas fa-football-ball"></i></label>
-    </div>
-    <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2"><i class="fab fa-cc-amex"></i></label>
-        </div>
-</div>
-</div>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1"><i class="fab fa-cc-mastercard"></i></label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2"><i class="fab fa-cc-visa"></i></label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1"><i class="fas fa-football-ball"></i></label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2"><i class="fab fa-cc-amex"></i></label>
+            </div>
 
-<div class="form-group col-6">
-        <label for="inputlastname">Message</label>
-        <textarea name =" "   class="form-control" id="inputlastname"></textarea>
+        </div>
     </div>
-  </div>
+
+    <div class="col-5"></div>
+
+    <div class="col-3">
+        <div class="form-group float-right">
+            <div><label for="inputlastname">Message</label></div>
+            <textarea name="Message" rows="5" cols="35"></textarea>
+        </div>
+    </div>
+
 </div>
 
 </form>
+</div>
 
+    </div>
+    <div class="card-footer text-muted">
+         <input type="submit" class="btn-primary float-right" value="send">
+         <input type="submit" class="btn-secondary float-right" value="cancel">
+    </div>
+</div>
 </div>
 
 
@@ -113,3 +136,4 @@
 
 </body>
 </html>
+
